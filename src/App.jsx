@@ -8,14 +8,19 @@ import Footer from "./components/Footer";
 
 export default function App() {
   return (
-    <>
+    <div>
+      {/* Full-width navbar */}
       <Navbar />
-      <Hero />
-      <About />
-      <Projects />
-      <Experience />
-      <Contact />
-      <Footer />
-    </>
+
+      {/* Centered content */}
+      <div className="w-full max-w-6xl mx-auto px-4">
+        <Hero />
+        <About />
+        <Projects />
+        <Experience />
+        <Contact />
+        <Footer />
+      </div>
+    </div>
   );
 }
