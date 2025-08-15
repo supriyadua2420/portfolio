@@ -1,14 +1,12 @@
 export const projects = [
   {
-    title: "Content Management API",
-    description: "C# .NET 9 API with MediatR and MongoDB integration.",
+    title: "Smart RC Car",
+    description: "Smart-RC Car (Embedded Systems): Developed a C++ self-driving car with real-time obstacle avoidance",
     link: "#",
-    image: "https://via.placeholder.com/300x200"
   },
   {
-    title: "Chat Animation Feature",
-    description: "iMessage-style typing animation in Aurelia.",
+    title: "PageRank Algorithm",
+    description: "A distributed C++ PageRank with MPI, cutting computation time by 67% on large graphs.",
     link: "#",
-    image: "https://via.placeholder.com/300x200"
   }
 ];

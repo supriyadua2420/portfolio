@@ -4,8 +4,7 @@ export default function About() {
   <div className="max-w-4xl mx-auto px-4">
     <h2 className="text-3xl font-bold text-pink-500 mb-4">About Me</h2>
     <p>
-      I am a full-stack developer with experience in C# .NET, MongoDB, Java, React,
-      and Aurelia. I love building clean, functional, and modern web applications.
+      Full-stack developer with experience in C# .NET, Java, React, MongoDB, and C++, building everything from scalable microservices and secure APIs to polished, interactive user interfaces. I’ve contributed to backend migrations, performance optimizations, authentication integrations, and deployment pipelines with Docker. I’m a quick learner who thrives on tackling new challenges, adapting to emerging technologies, and delivering solutions that are reliable, maintainable, and impactful. Hardworking, detail-oriented, and passionate about creating software that not only works well but makes a difference for its users.
     </p>
   </div>
 </section>

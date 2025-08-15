@@ -5,8 +5,8 @@ export default function Contact() {
       <p className="mb-8">Feel free to reach out for collaborations or just a friendly hello 👋</p>
       <a
         href="mailto:youremail@example.com"
-        className="px-6 py-3 bg-pink-500 text-white rounded-full shadow hover:bg-pink-600 transition"
-      >
+            className="px-6 py-3 bg-pink-400 text-white rounded-full shadow-md hover:bg-pink-500 transition-colors duration-300"
+        >
         Email Me
       </a>
     </section>
