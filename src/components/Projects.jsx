@@ -8,7 +8,7 @@ export default function Projects() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {projects.map((proj, index) => (
             <div key={index} className="bg-white shadow rounded-lg p-4">
-              <img src={proj.image} alt={proj.title} className="rounded-lg mb-4" />
+              {/* <img src={proj.image} alt={proj.title} className="rounded-lg mb-4" /> */}
               <h3 className="text-xl font-semibold">{proj.title}</h3>
               <p className="mt-2 text-gray-600">{proj.description}</p>
               <a

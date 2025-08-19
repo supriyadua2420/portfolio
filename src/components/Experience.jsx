@@ -10,7 +10,7 @@ export default function Experience() {
             <li key={index}>
               <h3 className="text-xl font-semibold">{exp.role}</h3>
               <p className="text-gray-600">{exp.company} — {exp.years}</p>
-              <p className="mt-2">{exp.description}</p>
+              <p className="text-gray-600 mt-2">{exp.description}</p>
             </li>
           ))}
         </ul>
