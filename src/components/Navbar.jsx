@@ -15,6 +15,10 @@ export default function Navbar() {
           <li><a href="#projects" className="hover:text-pink-500">Projects</a></li>
           <li><a href="#experience" className="hover:text-pink-500">Experience</a></li>
           <li><a href="#contact" className="hover:text-pink-500">Contact</a></li>
+          <li><a
+            href="/resume.pdf"
+            download
+            className="hover:text-pink-500">Resume</a></li>
         </ul>
 
         {/* Mobile Hamburger */}
