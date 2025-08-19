@@ -20,13 +20,16 @@ export default function Navbar() {
           <li><a href="#experience" className="hover:text-pink-500">Experience</a></li>
           <li><a href="#contact" className="hover:text-pink-500">Contact</a></li>
           <li>
-            <a
-              href="/portfolio/resume.pdf"
-              download
-              className="hover:text-pink-500"
-            >
-              Resume
-            </a>
+          <li>
+              <a
+                href={`${import.meta.env.BASE_URL}resume.pdf`}
+                download="Supriya-Dua-Resume.pdf"
+                className="hover:text-pink-500"
+              >
+                Resume
+              </a>
+          </li>
+
           </li>
         </ul>
 
@@ -82,7 +85,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/portfolio/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="block py-2 text-gray-600 hover:text-pink-500"
               onClick={() => setIsOpen(false)}
