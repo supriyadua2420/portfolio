@@ -24,7 +24,7 @@ export default function Navbar() {
               <a
                 href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download="Supriya-Dua-Resume.pdf"
-                className="px-3 py-1 rounded-xl text-sm font-medium bg-pink-500 text-white hover:bg-pink-600 transition"
+                className="hover:text-pink-500"
               >
                 Resume
               </a>
@@ -85,8 +85,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-
-              href="/portfolio/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="block py-2 text-gray-600 hover:text-pink-500"
               onClick={() => setIsOpen(false)}
