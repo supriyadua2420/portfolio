@@ -1,0 +1,12 @@
+export default function About() {
+  return (
+    <section id="about" className="py-20 bg-white text-gray-700">
+  <div className="max-w-4xl mx-auto px-4">
+    <h2 className="text-3xl font-bold text-pink-500 mb-4">About Me</h2>
+    <p>
+      Full-stack developer with experience in C# .NET, Java, React, MongoDB, and C++, building everything from scalable microservices and secure APIs to polished, interactive user interfaces. I’ve contributed to backend migrations, performance optimizations, authentication integrations, and deployment pipelines with Docker. I’m a quick learner who thrives on tackling new challenges, adapting to emerging technologies, and delivering solutions that are reliable, maintainable, and impactful. Hardworking, detail-oriented, and passionate about creating software that not only works well but makes a difference for its users.
+    </p>
+  </div>
+</section>
+  );
+}
