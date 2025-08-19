@@ -6,6 +6,12 @@ export const experience = [
     description: "Develop and maintainance of microservices. Fixed bugs and maintained frontend/backend components while writing unit tests."
   },
   {
+    role: "Tutor",
+    company: "Mathnasium",
+    years: "2023 - Present",
+    description: "Tutoring students in mathematics, helping them understand concepts and improve their skills. Developed personalized learning plans and provided feedback on progress."
+  },
+  {
     role: "Software Developer Intern",
     company: "HiringBranch",
     years: "2023 - 2023",
