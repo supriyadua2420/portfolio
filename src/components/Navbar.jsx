@@ -21,7 +21,7 @@ export default function Navbar() {
           <li><a href="#contact" className="hover:text-pink-500">Contact</a></li>
           <li>
             <a
-              href="/resume.pdf"
+              href="/portfolio/resume.pdf"
               download
               className="hover:text-pink-500"
             >
@@ -82,7 +82,7 @@ export default function Navbar() {
           </li>
           <li>
             <a
-              href="/resume.pdf"
+              href="/portfolio/resume.pdf"
               download
               className="block py-2 text-gray-600 hover:text-pink-500"
               onClick={() => setIsOpen(false)}
