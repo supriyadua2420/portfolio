@@ -7,7 +7,11 @@ export default function Navbar() {
   return (
     <nav className="bg-white shadow-md fixed w-full z-10">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
-        <h1 className="text-xl font-bold text-pink-500">Supriya Dua</h1>
+        
+        {/* Logo */}
+        <h1 className="text-lg sm:text-xl font-bold text-pink-500 whitespace-nowrap">
+          Supriya Dua
+        </h1>
 
         {/* Desktop Menu */}
         <ul className="hidden md:flex space-x-6 text-gray-600">
@@ -15,14 +19,19 @@ export default function Navbar() {
           <li><a href="#projects" className="hover:text-pink-500">Projects</a></li>
           <li><a href="#experience" className="hover:text-pink-500">Experience</a></li>
           <li><a href="#contact" className="hover:text-pink-500">Contact</a></li>
-          <li><a
-            href="/resume.pdf"
-            download
-            className="hover:text-pink-500">Resume</a></li>
+          <li>
+            <a
+              href="/resume.pdf"
+              download
+              className="hover:text-pink-500"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
 
         {/* Mobile Hamburger */}
-        <div className="md:hidden">
+        <div className="md:hidden flex-shrink-0 ml-2">
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-gray-600 focus:outline-none"
@@ -69,6 +78,16 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             >
               Contact
+            </a>
+          </li>
+          <li>
+            <a
+              href="/resume.pdf"
+              download
+              className="block py-2 text-gray-600 hover:text-pink-500"
+              onClick={() => setIsOpen(false)}
+            >
+              Resume
             </a>
           </li>
         </ul>
