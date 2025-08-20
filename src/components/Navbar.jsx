@@ -20,7 +20,6 @@ export default function Navbar() {
           <li><a href="#experience" className="hover:text-pink-500">Experience</a></li>
           <li><a href="#contact" className="hover:text-pink-500">Contact</a></li>
           <li>
-          <li>
               <a
                 href={`${import.meta.env.BASE_URL}resume.pdf`}
                 download="Supriya-Dua-Resume.pdf"
@@ -28,8 +27,6 @@ export default function Navbar() {
               >
                 Resume
               </a>
-          </li>
-
           </li>
         </ul>
 
