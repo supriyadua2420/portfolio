@@ -3,24 +3,28 @@ export const experience = [
     role: "Software Developer",
     company: "HiringBranch",
     years: "2024 - 2025",
-    description: "Develop and maintainance of microservices. Fixed bugs and maintained frontend/backend components while writing unit tests."
+    description:
+      "Designed, developed, and maintained scalable microservices in a Dockerized environment. Implemented new API features and optimized existing endpoints, improving response times. Fixed bugs across frontend and backend systems, wrote unit/integration tests to ensure reliable releases."
   },
   {
     role: "Tutor",
     company: "Mathnasium",
     years: "2023 - Present",
-    description: "Tutoring students in mathematics, helping them understand concepts and improve their skills. Developed personalized learning plans and provided feedback on progress."
+    description:
+      "Tutored elementary to high school students in mathematics, strengthening their problem-solving skills and conceptual understanding. Provided ongoing feedback, and tracked measurable progress over time."
   },
   {
     role: "Software Developer Intern",
     company: "HiringBranch",
-    years: "2023 - 2023",
-    description: "Developed and tested backend applications. Assisted in debugging and maintaining frontend/backend systems to improve performance."
+    years: "2023",
+    description:
+      "Built and tested backend features in Java and C# .NET, contributing to job scheduling workflow. Assisted in debugging full-stack issues, improving application performance and reliability. Gained hands-on experience with agile workflows and cross-team collaboration."
   },
   {
     role: "Quality Assurance",
     company: "HiringBranch",
     years: "2021 - 2023",
-    description: "Maintained the Quality of the product by writing and executing test cases. Reported bugs and worked with developers to resolve issues."
+    description:
+      "Ensured product quality by writing and executing manual and automated test cases. Collaborated closely with developers to document and resolve bugs, reducing release issues. Contributed to regression testing efforts during major product updates."
   }
 ];
